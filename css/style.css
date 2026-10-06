@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#d8fff5,#ffffff,#fff7e8);
+    padding:40px;
+}
+
+.container{
+    width:100%;
+    max-width:560px;
+    background:#ffffff;
+    border-radius:25px;
+    padding:45px;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    background:#20b486;
+    color:#ffffff;
+    border-radius:50%;
+    margin:0 auto 25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:42px;
+}
+
+h1{
+    text-align:center;
+    font-size:36px;
+    color:#173F5F;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:35px;
+}
+
+label{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    color:#333;
+    margin-bottom:8px;
+}
+
+input,
+select{
+    width:100%;
+    padding:16px;
+    border:2px solid #e4e4e4;
+    border-radius:12px;
+    font-size:16px;
+    margin-bottom:20px;
+    transition:.3s;
+    outline:none;
+}
+
+input:focus,
+select:focus{
+    border-color:#20b486;
+    box-shadow:0 0 12px rgba(32,180,134,.25);
+}
+
+button{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:50px;
+    background:#20b486;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#16996f;
+    transform:translateY(-2px);
+}
+
+.bottom-link{
+    margin-top:30px;
+    text-align:center;
+    color:#555;
+}
+
+.bottom-link a{
+    color:#20b486;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.bottom-link a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:650px){
+
+.container{
+    padding:30px;
+}
+
+h1{
+    font-size:28px;
+}
+
+.logo{
+    width:75px;
+    height:75px;
+    font-size:35px;
+}
+
+}
+
